@@ -47,12 +47,12 @@ by Miguel Avila
   > #tabbrowser-arrowscrollbox
   > .tabbrowser-tab
   > .tab-stack
-  > .tab-background[multiselected='true'],
+  > .tab-background[multiselected="true"],
 #tabbrowser-tabs:not([movingtab])
   > #tabbrowser-arrowscrollbox
   > .tabbrowser-tab
   > .tab-stack
-  > .tab-background[selected='true'] {
+  > .tab-background[selected="true"] {
   background-image: none !important;
   background-color: var(--toolbar-bgcolor) !important;
 }
@@ -86,7 +86,6 @@ by Miguel Avila
 └─┘└─┘┴ ┴┴  └─┘┘└┘└─┘┘└┘ ┴ └─┘
 
 */
-
 /* Tabs elements  */
 .tab-close-button {
   display: none;
@@ -96,7 +95,7 @@ by Miguel Avila
   display: none !important;
 }
 
-#nav-bar:not([tabs-hidden='true']) {
+#nav-bar:not([tabs-hidden="true"]) {
   box-shadow: none;
 }
 
@@ -117,13 +116,13 @@ by Miguel Avila
   margin-left: -4px !important;
 }
 
-.tabbrowser-tab:is([visuallyselected='true'], [multiselected])
+.tabbrowser-tab:is([visuallyselected="true"], [multiselected])
   > .tab-stack
   > .tab-background {
   box-shadow: none !important;
 }
 
-.tabbrowser-tab[last-visible-tab='true'] {
+.tabbrowser-tab[last-visible-tab="true"] {
   padding-inline-end: 0 !important;
 }
 
@@ -141,7 +140,7 @@ by Miguel Avila
   margin-left: 0 !important;
 }
 
-#urlbar[focused='true'] > #urlbar-background {
+#urlbar[focused="true"] > #urlbar-background {
   box-shadow: none !important;
 }
 
